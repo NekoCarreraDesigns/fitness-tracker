@@ -1,0 +1,27 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "fitness tracker app using mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekoCarreraDesigns/fitness-tracker.git"
+  },
+  "keywords": [
+    "fitness",
+    "tracker",
+    "mongodb",
+    "express",
+    "mongo.js",
+    "node.js"
+  ],
+  "author": "Nicholas C. Maas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NekoCarreraDesigns/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/NekoCarreraDesigns/fitness-tracker#readme"
+}
