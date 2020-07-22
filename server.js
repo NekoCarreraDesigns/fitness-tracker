@@ -12,7 +12,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true });
+
+const routes = require("/fitness_controller.js")
+
+app.use(routes)
 
 app.listen(PORT, (err) => {
     console.log("app is listening on:" + PORT);
@@ -21,4 +25,4 @@ app.listen(PORT, (err) => {
     } else {
         console.log(200)
     }
-})
+});
