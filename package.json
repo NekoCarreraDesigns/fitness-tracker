@@ -4,7 +4,10 @@
   "description": "fitness tracker app using mongodb",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
   "repository": {
     "type": "git",
