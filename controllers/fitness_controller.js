@@ -1,5 +1,5 @@
 const express = require("express");
-const db = require("../models")
+const db = require("./models")
 
 const app = express();
 
@@ -8,3 +8,4 @@ app.get("/", (req, res) => {
         res.json(data)
     })
 })
+module.exports = routes;

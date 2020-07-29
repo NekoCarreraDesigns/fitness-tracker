@@ -1,10 +1,10 @@
 const workoutTypeSelect = document.querySelector("#type");
 const cardioForm = document.querySelector(".cardio-form");
-const calesthenicsForm = document.querySelector("#calesthenics-form");
+const calisthenicsForm = document.querySelector("#calisthenics-form");
 const resistanceForm = document.querySelector(".resistance-form");
 const yogaForm = document.querySelector(".yoga-form");
 const cardioNameInput = document.querySelector("#cardio-name");
-const calesthenicsNameInput = document.querySelector("#calesthenics-name");
+const calisthenicsNameInput = document.querySelector("#calisthenics-name");
 const yogaNameInput = document.querySelector("#yoga-name");
 const nameInput = document.querySelector("#name");
 const weightInput = document.querySelector("#weight");
@@ -153,7 +153,7 @@ if (completeButton) {
 if (addButton) {
     addButton.addEventListener("click", handleFormSubmit);
 }
-toast.addEventListener("animationend", handleToastAnimationEnd);
+toast.addEventListener("animation-end", handleToastAnimationEnd);
 
 document
     .querySelectorAll("input")

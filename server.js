@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-
+const db = require("./models")
 const app = express();
 
 const PORT = process.env.PORT || 3000
@@ -12,14 +12,22 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useFindAndModify: false, useUnifiedTopology: true });
+let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout"
+const options =
+{
+    useNewUrlParser: true,
+    useFindAndModify: false,
+    useUnifiedTopology: true
+};
+
+mongoose.connect(MONGODB_URI, options)
 
 const routes = require("/fitness_controller.js")
 
-app.use(routes)
+app.use(require("./controllers/fitness_controller"))
 
 app.listen(PORT, (err) => {
-    console.log("app is listening on:" + PORT);
+    console.log("App is listening on:" + PORT);
     if (err) {
         console.log(500)
     } else {
