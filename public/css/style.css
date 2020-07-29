@@ -116,7 +116,7 @@ form .calisthenics-form div,
 form .yoga-form div,
 form .resistance-form div {
   display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 form label {
@@ -195,7 +195,7 @@ form .calisthenics-form div,
 form .yoga-form div,
 form .resistance-form div {
   display: flex;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 form label {
@@ -258,7 +258,7 @@ form .yoga-form div,
 form .cardio-form div,
 form .resistance-form div {
   display: flex;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 form label {
