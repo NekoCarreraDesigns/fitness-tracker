@@ -1,10 +1,7 @@
-const express = require("express");
-const db = require("./models");
-const { Router } = require("express");
+const router = require("express").Router();
+const db = require("../models");
 
-const app = express();
-
-app.get("/api/workouts", (req, res) => {
+router.get("/api/workouts", (req, res) => {
     db.Exercise.find({})
         .then((dbExercise) => {
             res.json(dbExercise);
