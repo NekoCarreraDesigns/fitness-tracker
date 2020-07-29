@@ -20,17 +20,16 @@ const options =
     useUnifiedTopology: true
 };
 
-mongoose.connect(MONGODB_URI, options)
+mongoose.connect(MONGODB_URI, options);
 
-const routes = require("/fitness_controller.js")
-
-app.use(require("./controllers/fitness_controller"))
+app.use(require("./controllers/fitness_controller.js"));
+app.use(require("./controllers/web_controller.js"));
 
 app.listen(PORT, (err) => {
     console.log("App is listening on:" + PORT);
     if (err) {
-        console.log(500)
+        console.log(500);
     } else {
-        console.log(200)
+        console.log(200);
     }
 });
