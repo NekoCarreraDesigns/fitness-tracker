@@ -18,7 +18,8 @@
     "tracker",
     "mongodb",
     "express",
-    "mongo.js",
+    "mongoose",
+    "maverick",
     "node.js"
   ],
   "author": "Nicholas C. Maas",
