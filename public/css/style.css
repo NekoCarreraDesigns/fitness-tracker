@@ -112,6 +112,8 @@ input {
 
 form .workout-type,
 form .cardio-form div,
+form .calisthenics-form div,
+form .yoga-form div,
 form .resistance-form div {
   display: flex;
   margin-top: 30px;
@@ -189,6 +191,8 @@ button {
 
 .workout-type,
 form .cardio-form div,
+form .calisthenics-form div,
+form .yoga-form div,
 form .resistance-form div {
   display: flex;
   margin-top: 30px;
@@ -249,6 +253,8 @@ button {
   transition: all 0.5s;
 }
 .workout-type,
+form .calisthenics-form div,
+form .yoga-form div,
 form .cardio-form div,
 form .resistance-form div {
   display: flex;
@@ -425,6 +431,8 @@ form > button {
 
 .workout-type,
 .cardio-form,
+.calisthenics-form,
+.yoga-form,
 .resistance-form {
   padding: 10px;
 }
