@@ -26,7 +26,7 @@
 
   ## Future Developments
 
-  undefined
+  Add different workout options
 
   ## Credits
 
