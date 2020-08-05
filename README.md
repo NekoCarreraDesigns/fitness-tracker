@@ -7,27 +7,26 @@
 
   ## Description 
   
-  App to track workouts, add workouts, and complete workouts started
+  App for tracking workouts
 
   ## Table of Contents 
    
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Future Developments](#future-developments)
+  * [Future Developments](#futureDevelopments)
   * [Credits](#credits)
-  * [Tests](#tests)
   * [Questions](#questions)
   
   ## Installation 
-  ``  clone repo, npm i packages, npm run seed, in separate terminal run mongod, in new terminal npm start, navigate to localhost:4000
+  ``  clone repo, npm i packages, run mongod, in seperate terminal npm run seed, then npm start, go to localhost:4000
   ``  
   ## Usage 
   
-  used for tracking your exercise routine
+  Track workouts, add workouts, finish workouts, and tells data from workouts
 
   ## Future Developments
 
-  Add different workout options
+  undefined
 
   ## Credits
 
@@ -41,22 +40,20 @@
 
 * morgan
 
-* es6
-
   ## Contributors: 
   
   Nicholas C. Maas
 
   ## Questions?
 
-  Contact me at  [denvernick@hotmail.com](mailto:denvernick@hotmail.com]
+  Contact me at  [denvernick@hotmail.com]
   
-  or Follow on Github https://img.shields.io/github/followers/NekoCarreraDesigns?label=Follow&style=social http://www.github.com/NekoCarreraDesigns
+  or [![Follow on Github] (https://img.shields.io/github/followers/NekoCarreraDesigns?label=Follow&style=social)](http://www.github.com/NekoCarreraDesigns)
 
-  Copyright © 2020 Nicholas C. Maashttp://www.github.com/NekoCarreraDesigns
+  Copyright © 2020 Nicholas C. Maas (http://www.github.com/NekoCarreraDesigns)
 
   ---
 
-  ##### _Created with NekoCarreraDesigns readme generator https://github.com/NekoCarreraDesigns/readme-generator
+  ##### _Created with [NekoCarreraDesigns readme generator] (https://github.com/NekoCarreraDesigns/readme-generator)
 
   
