@@ -48,7 +48,7 @@
 
   Contact me at  [denvernick@hotmail.com]
   
-  or [![Follow on Github] (https://img.shields.io/github/followers/NekoCarreraDesigns?label=Follow&style=social)](http://www.github.com/NekoCarreraDesigns)
+  or [!Follow on Github (https://img.shields.io/github/followers/NekoCarreraDesigns?label=Follow&style=social)](http://www.github.com/NekoCarreraDesigns)
 
   Copyright © 2020 Nicholas C. Maas (http://www.github.com/NekoCarreraDesigns)
 
