@@ -46,6 +46,17 @@
     <script defer src="../js/api.js"></script>
     <script defer src="../js/workout.js"></script>
     <script defer src="../js/index.js"></script>
+    <script defer src="/public/db.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("service-worker.js").then((reg) => {
+                    console.log("We found your service worker file!", reg);
+                });
+            });
+        }
+
+    </script>
 </body>
 
 </html>
