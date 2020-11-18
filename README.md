@@ -4,7 +4,7 @@
 
 ### URL: https://obscure-citadel-27419.herokuapp.com
 
-![fitness-tracker](public/assets/FitnessTracker2.png)
+![fitness-tracker](public/assets/FitnessTracker.png)
 
 ## Description
 
