@@ -1,59 +1,59 @@
+# Title: Fitness Tracker
 
-  # Title: Fitness Tracker
+![last commit](https://img.shields.io/github/last-commit/NekoCarreraDesigns/fitness-tracker?style=flat-square)![license badge](https://img.shields.io/github/license/NekoCarreraDesigns/fitness-tracker?style=flat-square)
 
-  ![last commit](https://img.shields.io/github/last-commit/NekoCarreraDesigns/fitness-tracker?style=flat-square)![license badge](https://img.shields.io/github/license/NekoCarreraDesigns/fitness-tracker?style=flat-square)
+### URL: https://obscure-citadel-27419.herokuapp.com
 
-  ### URL: https://obscure-citadel-27419.herokuapp.com
+![fitness-tracker](public/assets/FitnessTracker2.png)
 
-  ## Description 
-  
-  App for tracking workouts
+## Description
 
-  ## Table of Contents 
-   
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Future Developments](#futureDevelopments)
-  * [Credits](#credits)
-  * [Questions](#questions)
-  
-  ## Installation 
-  ``  clone repo, npm i packages, run mongod, in seperate terminal npm run seed, then npm start, go to localhost:4000
-  ``  
-  ## Usage 
-  
-  Track workouts, add workouts, finish workouts, and tells data from workouts
+App for tracking workouts
 
-  ## Future Developments
+## Table of Contents
 
-  Add different workout options
+- [Installation](#installation)
+- [Usage](#usage)
+- [Future Developments](#futureDevelopments)
+- [Credits](#credits)
+- [Questions](#questions)
 
-  ## Credits
+## Installation
 
-  * node.js
+`clone repo, npm i packages, run mongod, in seperate terminal npm run seed, then npm start, go to localhost:4000`
 
-* [Express.js](https://www.npmjs.com/package/express)
+## Usage
 
-* mongoose
+Track workouts, add workouts, finish workouts, and tells data from workouts
 
-* mongodb
+## Future Developments
 
-* morgan
+Add different workout options
 
-  ## Contributors: 
-  
+## Credits
+
+- node.js
+
+- [Express.js](https://www.npmjs.com/package/express)
+
+- mongoose
+
+- mongodb
+
+- morgan
+
+  ## Contributors:
+
   Nicholas C. Maas
 
   ## Questions?
 
-  Contact me at  [denvernick@hotmail.com]
-  
+  Contact me at [denvernick@hotmail.com]
+
   or [!Follow on Github (https://img.shields.io/github/followers/NekoCarreraDesigns?label=Follow&style=social)](http://www.github.com/NekoCarreraDesigns)
 
   Copyright © 2020 Nicholas C. Maas (http://www.github.com/NekoCarreraDesigns)
 
-  ---
+  ***
 
-  ##### _Created with [NekoCarreraDesigns readme generator] (https://github.com/NekoCarreraDesigns/readme-generator)
-
-  
+  ##### \_Created with [NekoCarreraDesigns readme generator] (https://github.com/NekoCarreraDesigns/readme-generator)
